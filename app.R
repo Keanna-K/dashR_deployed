@@ -14,7 +14,7 @@ app <- Dash$new(external_stylesheets = "https://codepen.io/chriddyp/pen/bWLwgP.c
 
 
 
-df <- read_csv("./data/aac_data_cleaned.csv")
+df <- read_csv("https://raw.githubusercontent.com/Keanna-K/DSCI532_206_AAC_Rdashboard/master/data/aac_data_cleaned.csv")
 
 # global year slider (get the years from the dataset)
 yearMarks <- map(unique(df$intake_year), as.character)
